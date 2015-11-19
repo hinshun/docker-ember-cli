@@ -12,6 +12,6 @@ RUN git clone https://github.com/facebook/watchman.git && \
   make && \
   make install
 
-EXPOSE 4200 35729
+EXPOSE 4200 49152
 
 CMD [ "ember" ]
